@@ -30,6 +30,8 @@ import org.stathissideris.ascii2image.core.FileUtils;
 import org.stathissideris.ascii2image.core.ProcessingOptions;
 import org.stathissideris.ascii2image.graphics.CustomShapeDefinition;
 
+import javax.swing.*;
+
 
 /**
  * 
@@ -77,6 +79,9 @@ public class TextGrid {
 		humanColorCodes.put("BRN", "641");
 		humanColorCodes.put("IDG", "50D");
 		humanColorCodes.put("CYN", "3AA");
+		humanColorCodes.put("GRY", "888");
+		humanColorCodes.put("RSE", "F56");
+
 	}
 
 	private static HashSet<String> markupTags =
@@ -254,6 +259,21 @@ public class TextGrid {
 			if(i < 10) index = " "+index;
 			System.out.println(index+" ("+row+")");
 			i++; 
+		}
+	}
+
+	public void printDebugGUI(JTextArea text){
+		Iterator<StringBuffer> it = rows.iterator();
+		int i = 0;
+		text.append(text.getText() + "\n" +
+				"    "
+						+StringUtils.repeatString("0123456789", (int) Math.floor(getWidth()/10)+1));
+		while(it.hasNext()){
+			String row = it.next().toString();
+			String index = new Integer(i).toString();
+			if(i < 10) index = " "+index;
+			text.append(text.getText() + "\n" + index+" ("+row+")");
+			i++;
 		}
 	}
 
@@ -1319,8 +1339,8 @@ public class TextGrid {
 	 * 
 	 * @param x
 	 * @param y
-	 * @param c1 the character to replace
-	 * @param c2 the character to replace c1 with
+	 * @param  the character to replace
+	 * @param  the character to replace c1 with
 	 * @return the list of cells filled
 	 */
 //	public CellSet fillContinuousArea(int x, int y, char c1, char c2){

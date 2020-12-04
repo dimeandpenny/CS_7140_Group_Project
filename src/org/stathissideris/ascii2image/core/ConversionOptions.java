@@ -23,8 +23,11 @@ package org.stathissideris.ascii2image.core;
 import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
+import javax.swing.*;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.apache.commons.cli.CommandLine;
@@ -37,63 +40,63 @@ import org.xml.sax.SAXException;
  * @author Efstathios Sideris
  */
 public class ConversionOptions {
-	
+
 	public ProcessingOptions processingOptions =
-		new ProcessingOptions();
+			new ProcessingOptions();
 	public RenderingOptions renderingOptions =
-		new RenderingOptions();
-		
-	public void setDebug(boolean value){
+			new RenderingOptions();
+
+	public void setDebug(boolean value) {
 		processingOptions.setPrintDebugOutput(value);
 		renderingOptions.setRenderDebugLines(value);
 	}
-	
-	public ConversionOptions(){}
-	
-	public ConversionOptions(CommandLine cmdLine) throws UnsupportedEncodingException{
-		
+
+	public ConversionOptions() {
+	}
+
+	public ConversionOptions(CommandLine cmdLine) throws UnsupportedEncodingException {
+
 		processingOptions.setVerbose(cmdLine.hasOption("verbose"));
 		renderingOptions.setDropShadows(!cmdLine.hasOption("no-shadows"));
 		this.setDebug(cmdLine.hasOption("debug"));
 		processingOptions.setOverwriteFiles(cmdLine.hasOption("overwrite"));
-		
-		if(cmdLine.hasOption("scale")){
+
+		if (cmdLine.hasOption("scale")) {
 			Float scale = Float.parseFloat(cmdLine.getOptionValue("scale"));
 			renderingOptions.setScale(scale.floatValue());
 		}
-		
+
 		processingOptions.setAllCornersAreRound(cmdLine.hasOption("round-corners"));
 		processingOptions.setPerformSeparationOfCommonEdges(!cmdLine.hasOption("no-separation"));
 		renderingOptions.setAntialias(!cmdLine.hasOption("no-antialias"));
 
 
-
-		if(cmdLine.hasOption("tabs")){
+		if (cmdLine.hasOption("tabs")) {
 			Integer tabSize = Integer.parseInt(cmdLine.getOptionValue("tabs"));
 			int tabSizeValue = tabSize.intValue();
-			if(tabSizeValue < 0) tabSizeValue = 0;
+			if (tabSizeValue < 0) tabSizeValue = 0;
 			processingOptions.setTabSize(tabSizeValue);
 		}
 
 		String encoding = (String) cmdLine.getOptionValue("encoding");
-		if(encoding != null){
+		if (encoding != null) {
 			new String(new byte[2], encoding);
 			processingOptions.setCharacterEncoding(encoding);
 		}
-		
+
 		ConfigurationParser configParser = new ConfigurationParser();
 		try {
 			for (Option curOption : cmdLine.getOptions()) {
-				if(curOption.getLongOpt().equals("config")) {
+				if (curOption.getLongOpt().equals("config")) {
 					String configFilename = curOption.getValue();
-					System.out.println("Parsing configuration file "+configFilename);
+					System.out.println("Parsing configuration file " + configFilename);
 					File file = new File(configFilename);
-					if(file.exists()){
+					if (file.exists()) {
 						configParser.parseFile(file);
 						HashMap<String, CustomShapeDefinition> shapes = configParser.getShapeDefinitionsHash();
 						processingOptions.putAllInCustomShapes(shapes);
 					} else {
-						System.err.println("File "+file+" does not exist, skipping");
+						System.err.println("File " + file + " does not exist, skipping");
 					}
 				}
 			}
@@ -109,7 +112,6 @@ public class ConversionOptions {
 		}
 	}
 }
-
 
 // may be supported at a later date:
 //String exportFormat = (String) cmdLine.getOptionValue("format");

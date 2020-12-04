@@ -28,6 +28,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
 import javax.imageio.ImageIO;
+import javax.swing.*;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
@@ -173,7 +174,6 @@ public class CommandLineConverter {
 		}
 
 		//TODO: Break up into rendering and saving b/c GUI does those steps differently?
-
 		if(cmdLine.hasOption("html")){
 
 			if (isGUI) {
@@ -206,7 +206,6 @@ public class CommandLineConverter {
 			//TODO make more elegant after refactoring of CommandLineConverter
 			if (isGUI) {
 				new DitaaGUI(options).openGUI();
-				//new DitaaGUI().openGUI();
 			}
 			else{
 				String inFilename = args[0];
@@ -232,14 +231,13 @@ public class CommandLineConverter {
 		if(options.processingOptions.getCustomShapes() != null){
 			grid.addToMarkupTags(options.processingOptions.getCustomShapes().keySet());
 		}
-
 		System.out.println("Reading file: "+filename);
 		try {
 			if(!grid.loadFrom(filename, options.processingOptions)){
 				System.err.println("Cannot open file "+filename+" for reading");
 			}
 		} catch (UnsupportedEncodingException e1){
-			System.err.println("Error: "+e1.getMessage());
+			System.err.println("Error: " + e1.getMessage());
 			System.exit(1);
 		} catch (FileNotFoundException e1) {
 			System.err.println("Error: File "+filename+" does not exist");
@@ -255,13 +253,49 @@ public class CommandLineConverter {
 		}
 
 		Diagram diagram = new Diagram(grid, options);
-		System.out.println("Rendering to file: "+toFilename);
-
+		System.out.println("Rendering temp file to: "+toFilename);
 
 		RenderedImage image = new BitmapRenderer().renderToImage(diagram, options.renderingOptions);
 
 		saveImage(image, toFilename);
 	}
+
+	//This is to ensure output is redirected to the text output screen
+	public static void runSimpleModeGUI(ConversionOptions options, String filename, String toFilename, JTextArea text){
+		TextGrid grid = new TextGrid();
+		if(options.processingOptions.getCustomShapes() != null){
+			grid.addToMarkupTags(options.processingOptions.getCustomShapes().keySet());
+		}
+
+		text.append(text.getText() + "Reading file: "+ filename + "\n");
+		try {
+			if(!grid.loadFrom(filename, options.processingOptions)){
+				text.append(text.getText() + "\n" + "Cannot open file "+filename+" for reading");
+			}
+		} catch (UnsupportedEncodingException e1){
+			text.append(text.getText() + "\n" + "Error: "+e1.getMessage());
+			System.exit(1);
+		} catch (FileNotFoundException e1) {
+			text.append(text.getText() + "\n" +"Error: File "+filename+" does not exist");
+			System.exit(1);
+		} catch (IOException e1) {
+			text.append(text.getText() + "\n" + "Error: Cannot open file "+filename+" for reading");
+			System.exit(1);
+		}
+
+		if(options.processingOptions.printDebugOutput()){
+			text.append(text.getText() + "\n" + "Using grid:");
+			grid.printDebugGUI(text);
+		}
+
+		Diagram diagram = new Diagram(grid, options);
+		text.append(text.getText() + "\n" + "Rendering temp file to: "+toFilename);
+
+		RenderedImage image = new BitmapRenderer().renderToImage(diagram, options.renderingOptions);
+
+		saveImageGUI(image, toFilename, text);
+	}
+	//////////////////////////////////////
 
 	public static void saveImage(RenderedImage image, String toFilename) {
 		try {
@@ -273,4 +307,19 @@ public class CommandLineConverter {
 			System.exit(1);
 		}
 	}
+
+	public static void saveImageGUI(RenderedImage image, String toFilename, JTextArea text) {
+		try {
+			File file = new File(toFilename);
+			ImageIO.write(image, "png", file);
+		} catch (IOException e) {
+			//e.printStackTrace();
+			text.append(text.getText() + "\n" + "Error: Cannot write to file "+toFilename);
+			System.exit(1);
+		}
+	}
+
+
+
+
 }
