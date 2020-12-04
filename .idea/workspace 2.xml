@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44bb9de1-502e-4b75-9d69-fa8d071971c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ditaa 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CS_7140_Group_Project 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/CommandLineConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/CommandLineConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConfigurationParser$XMLHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConfigurationParser$XMLHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConfigurationParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConfigurationParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConversionOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConversionOptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/DebugUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/DebugUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/DocBookConverter$HowToHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/DocBookConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/HTMLConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/HTMLConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/PerformanceTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/PerformanceTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ProcessingOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ProcessingOptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/RenderingOptions$ImageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/RenderingOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/RenderingOptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/Shape3DOrderingComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/Shape3DOrderingComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ShapeAreaComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/BitmapRenderer$TextCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/BitmapRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/BitmapRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/CompositeDiagramShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/CompositeDiagramShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/CustomShapeDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/CustomShapeDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/Diagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/Diagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramText.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/FontMeasurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/FontMeasurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ImageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ImageHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/OffScreenSVGRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/OffScreenSVGRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/SVGBuilder$SVGCommands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/SVGBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/SVGRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ShapeEdge.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ShapeEdge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ShapePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ShapePoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/AbstractCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/AbstractCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/AbstractionGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/AbstractionGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/CellSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/CellSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/GridPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/GridPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/GridPatternGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/GridPatternGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellColorPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellColorPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellStringPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellStringPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellTagPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellTagPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$LineSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$LineSegment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/release.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/release.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ditaa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ditaa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-cli-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/commons-cli-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/CommandLineConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/CommandLineConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/ConfigurationParser$XMLHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/ConfigurationParser$XMLHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/ConfigurationParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/ConfigurationParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/ConversionOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/ConversionOptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/DebugUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/DebugUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/DocBookConverter$HowToHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/DocBookConverter$HowToHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/DocBookConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/DocBookConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/HTMLConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/HTMLConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/PerformanceTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/PerformanceTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/ProcessingOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/ProcessingOptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/RenderingOptions$ImageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/RenderingOptions$ImageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/RenderingOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/RenderingOptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/Shape3DOrderingComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/Shape3DOrderingComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/ShapeAreaComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/core/ShapeAreaComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/BitmapRenderer$TextCanvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/BitmapRenderer$TextCanvas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/BitmapRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/BitmapRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/CompositeDiagramShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/CompositeDiagramShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/CustomShapeDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/CustomShapeDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/Diagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/Diagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/DiagramComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/DiagramComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/DiagramShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/DiagramShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/DiagramText.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/DiagramText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/FontMeasurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/FontMeasurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/ImageHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/ImageHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/OffScreenSVGRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/OffScreenSVGRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/SVGBuilder$SVGCommands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/SVGBuilder$SVGCommands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/SVGBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/SVGBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/SVGRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/SVGRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/ShapeEdge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/ShapeEdge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/ShapePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/graphics/ShapePoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/AbstractCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/AbstractCell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/AbstractionGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/AbstractionGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/CellSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/CellSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/GridPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/GridPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/GridPatternGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/GridPatternGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid$Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid$Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid$CellColorPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid$CellColorPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid$CellStringPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid$CellStringPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid$CellTagPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid$CellTagPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid$LineSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid$LineSegment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS_7140_Group_Project/org/stathissideris/ascii2image/text/TextGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CS_7140_Group_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/CS_7140_Group_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/CommandLineConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/ConfigurationParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/ConversionOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/DebugUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/DocBookConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/HTMLConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/PerformanceTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/ProcessingOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/RenderingOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/Shape3DOrderingComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/ShapeAreaComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/BitmapRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/CompositeDiagramShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/CustomShapeDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/Diagram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/DiagramComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/DiagramShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/DiagramText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/FontMeasurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/ImageHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/OffScreenSVGRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/SVGBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/SVGRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/ShapeEdge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/ShapePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/text/AbstractCell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/text/AbstractionGrid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/text/CellSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/text/GridPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/text/GridPatternGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/text/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/text/TextGrid.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hZasZSrLbOvhOv8VNZY8lHFnrO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../ditaa/src/java/org/stathissideris/ascii2image/core" />
+      <recent name="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44bb9de1-502e-4b75-9d69-fa8d071971c1" name="Default Changelist" comment="" />
+      <created>1600221275424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600221275424</updated>
+      <workItem from="1600221276557" duration="716000" />
+      <workItem from="1601076772690" duration="228000" />
+      <workItem from="1606954355879" duration="3480000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="477" y="159" key="#Project_Structure" timestamp="1606957935567">
+      <screen x="0" y="25" width="1920" height="1101" />
+    </state>
+    <state x="477" y="159" key="#Project_Structure/0.25.1920.1101@0.25.1920.1101" timestamp="1606957935567" />
+    <state x="453" y="240" width="1215" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606954847545">
+      <screen x="0" y="25" width="1920" height="1100" />
+    </state>
+    <state x="453" y="240" width="1215" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1100@0.25.1920.1100" timestamp="1606954847545" />
+    <state x="727" y="339" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1606958199036">
+      <screen x="0" y="25" width="1920" height="1101" />
+    </state>
+    <state x="727" y="339" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.25.1920.1101@0.25.1920.1101" timestamp="1606958199036" />
+    <state x="611" y="198" key="NewModule_or_Project.wizard" timestamp="1606957890364">
+      <screen x="0" y="25" width="1920" height="1101" />
+    </state>
+    <state x="611" y="198" key="NewModule_or_Project.wizard/0.25.1920.1101@0.25.1920.1101" timestamp="1606957890364" />
+    <state x="477" y="159" width="982" height="827" key="SettingsEditor" timestamp="1606958437223">
+      <screen x="0" y="25" width="1920" height="1101" />
+    </state>
+    <state x="477" y="159" width="982" height="827" key="SettingsEditor/0.25.1920.1100@0.25.1920.1100" timestamp="1606955493163" />
+    <state x="477" y="159" key="SettingsEditor/0.25.1920.1101@0.25.1920.1101" timestamp="1606958437223" />
+    <state x="702" y="473" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606958126328">
+      <screen x="0" y="25" width="1920" height="1101" />
+    </state>
+    <state x="702" y="473" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.25.1920.1101@0.25.1920.1101" timestamp="1606958126328" />
+    <state x="691" y="189" width="595" height="783" key="find.popup" timestamp="1606955589204">
+      <screen x="0" y="25" width="1920" height="1100" />
+    </state>
+    <state x="691" y="189" width="595" height="783" key="find.popup/0.25.1920.1100@0.25.1920.1100" timestamp="1606955589204" />
+    <state x="588" y="200" width="854" height="761" key="new project wizard" timestamp="1606954633734">
+      <screen x="0" y="25" width="1920" height="1100" />
+    </state>
+    <state x="588" y="200" width="854" height="761" key="new project wizard/0.25.1920.1098@0.25.1920.1098" timestamp="1601076995464" />
+    <state x="588" y="200" key="new project wizard/0.25.1920.1100@0.25.1920.1100" timestamp="1606954633734" />
+  </component>
+</project>
