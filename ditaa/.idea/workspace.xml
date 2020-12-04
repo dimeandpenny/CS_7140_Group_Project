@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72f4b6d4-b9dc-4f3e-8c6b-1b38aeea3ca1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/CommandLineConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConfigurationParser$XMLHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConfigurationParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConversionOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/DebugUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/DocBookConverter$HowToHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/DocBookConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/HTMLConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/PerformanceTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ProcessingOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/RenderingOptions$ImageType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/RenderingOptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/Shape3DOrderingComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ShapeAreaComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/BitmapRenderer$TextCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/BitmapRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/CompositeDiagramShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/CustomShapeDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/Diagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/FontMeasurer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ImageHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/OffScreenSVGRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/SVGBuilder$SVGCommands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/SVGBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/SVGRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ShapeEdge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ShapePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/AbstractCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/AbstractionGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/CellSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/GridPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/GridPatternGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/StringUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellColorPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellStringPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellTagPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$LineSegment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ditaa.eml" beforeDir="false" afterPath="$PROJECT_DIR$/ditaa.eml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lDA1EVUklpQXY2yg7qdrbLiJDp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72f4b6d4-b9dc-4f3e-8c6b-1b38aeea3ca1" name="Default Changelist" comment="" />
+      <created>1607121070407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607121070407</updated>
+      <workItem from="1607121071574" duration="2427000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="698" y="336" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1607123155007">
+      <screen x="0" y="25" width="1920" height="1109" />
+    </state>
+    <state x="698" y="336" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.25.1920.1109@0.25.1920.1109" timestamp="1607123155007" />
+    <state x="335" y="74" width="982" height="816" key="SettingsEditor" timestamp="1607123949571">
+      <screen x="0" y="25" width="1920" height="1110" />
+    </state>
+    <state x="335" y="74" width="982" height="816" key="SettingsEditor/0.25.1920.1109@0.25.1920.1109" timestamp="1607123654939" />
+    <state x="335" y="74" key="SettingsEditor/0.25.1920.1110@0.25.1920.1110" timestamp="1607123949571" />
+    <state x="673" y="471" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607123311852">
+      <screen x="0" y="25" width="1920" height="1109" />
+    </state>
+    <state x="673" y="471" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.25.1920.1109@0.25.1920.1109" timestamp="1607123311852" />
+  </component>
+</project>

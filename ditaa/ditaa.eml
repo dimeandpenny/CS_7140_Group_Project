@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component inheritJdk="true">
+<component jdk="1.8" jdk_type="JavaSDK">
 	<exclude-output/>
-	<contentEntry url="file://$MODULE_DIR$"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/test"/>
+		<testFolder url="file://$MODULE_DIR$/test-resources"/>
+	</contentEntry>
 	<levels>
-		<level name="batik-css.jar" value="project"/>
-		<level name="batik-gvt.jar" value="project"/>
-		<level name="batik-parser.jar" value="project"/>
-		<level name="batik-script.jar" value="project"/>
-		<level name="batik-svg-dom.jar" value="project"/>
-		<level name="batik-util.jar" value="project"/>
-		<level name="batik-xml.jar" value="project"/>
-		<level name="js.jar" value="project"/>
-		<level name="xerces_2_5_0.jar" value="project"/>
-		<level name="xml-apis.jar" value="project"/>
-		<level name="batik-dom.jar" value="project"/>
-		<level name="batik-awt-util.jar" value="project"/>
-		<level name="commons-cli-1.2.jar" value="project"/>
-		<level name="jericho-html-3.1.jar" value="project"/>
 		<level name="lib" value="project"/>
-		<level name="batik-anim-1.9" value="project"/>
+		<level name="lib1" value="project"/>
+		<level name="Java EE 6-Java EE 6" value="project"/>
 	</levels>
 </component>
