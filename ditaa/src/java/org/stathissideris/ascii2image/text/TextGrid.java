@@ -241,6 +241,7 @@ public class TextGrid {
 	public void printDebug(){
 		Iterator<StringBuilder> it = rows.iterator();
 		int i = 0;
+		System.out.println(("HEIURE"));
 		System.out.println(
 			"    "
 			+StringUtils.repeatString("0123456789", (int) Math.floor(getWidth()/10)+1));

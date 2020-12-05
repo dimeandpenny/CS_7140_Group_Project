@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib1" level="project" />
     <orderEntry type="module" module-name="CS_7140_Group_Project" />
+    <orderEntry type="library" scope="TEST" name="junit-4.12" level="application" />
   </component>
 </module>

@@ -1,16 +1,12 @@
 package org.stathissideris.ascii2image.core;
 
-import org.apache.commons.cli.CommandLineParser;
-import org.apache.commons.cli.OptionBuilder;
 import org.stathissideris.ascii2image.graphics.BitmapRenderer;
 import org.stathissideris.ascii2image.graphics.Diagram;
 import org.stathissideris.ascii2image.text.TextGrid;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.text.BadLocationException;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -31,8 +27,6 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 import static javax.swing.JOptionPane.ERROR_MESSAGE;
 import static javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS;
 import static javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS;
-import static org.stathissideris.ascii2image.core.ConversionOptions.parseColor;
-
 
 public class GUI {
 
@@ -43,7 +37,7 @@ public class GUI {
     private static JButton buttonLoad;
     private static JButton buttonSavePng;
     private static JButton buttonSaveJpg;
-    private static JFrame Sort_Server_Frame;
+    private static JFrame Main_Frame;
     private static File savepngfile = null;
     private static File savejpgfile = null;
     private static boolean png_trigger = false;
@@ -54,22 +48,15 @@ public class GUI {
     private static TextGrid grid = new TextGrid();
 
     //This is the TextArea for user notification...
-    private static JTextArea Sorting_Output = new JTextArea(15, 30);
+    private static JTextArea Program_Output = new JTextArea(15, 30);
 
     //This is the "function" that is used to overwrite the System.out.println
     //command to redirect output to the TextArea...
     private static TextAreaOutputStream taOutputStream = new TextAreaOutputStream(
-            Sorting_Output, "Output Messages");
-
-    //Variables used to hold user input...
-    private static String ServernameUnbind;
-    //private static String ServerNumberUnbind;
-    private static String ServerLocationUnbind;
-    private static String ServerPortUnbind;
-
+            Program_Output, "Output Messages");
 
     //Let's create the GUI for the Server...
-    public static void CreateServerGUI()
+    public static void CreateDITAAGUI()
     {
         //Let's create the main frame and give it a title...
         JFrame Sort_Server_Frame = new JFrame("Diagrams Through ASCII Art (DITAA) GUI");
@@ -145,8 +132,8 @@ public class GUI {
         InputPanel.add(SelectedFileName);
         InputPanel.add(SaveFileLabel);
         InputPanel.add(SaveFileName);
-        InputPanel.add(CommandLineLabel);
-        InputPanel.add(CommandLineArgs);
+        //InputPanel.add(CommandLineLabel);
+        //InputPanel.add(CommandLineArgs);
 
         return InputPanel;
     }
@@ -192,7 +179,7 @@ public class GUI {
 
                 JFileChooser filedialog = new JFileChooser("Please Choose a file");
 
-                    int returnVal = filedialog.showOpenDialog(Sort_Server_Frame);
+                    int returnVal = filedialog.showOpenDialog(Main_Frame);
 
                     if (returnVal == JFileChooser.APPROVE_OPTION)
                     {
@@ -221,7 +208,7 @@ public class GUI {
             savepngfiledialog.setFileFilter(new FileNameExtensionFilter("png", ".png"));
             savepngfiledialog.setMultiSelectionEnabled(false);
 
-            int returnVal = savepngfiledialog.showSaveDialog(Sort_Server_Frame);
+            int returnVal = savepngfiledialog.showSaveDialog(Main_Frame);
 
             if (returnVal == JFileChooser.APPROVE_OPTION)
             {
@@ -239,7 +226,7 @@ public class GUI {
                     filename = ext[0];
                     if(!ext[1].equals("png") )
                     {
-                        JOptionPane.showMessageDialog(Sort_Server_Frame, "Invalid file extension.  Saving with PNG extension.", "Invalid Extension", JOptionPane.WARNING_MESSAGE);
+                        JOptionPane.showMessageDialog(Main_Frame, "Invalid file extension.  Saving with PNG extension.", "Invalid Extension", JOptionPane.WARNING_MESSAGE);
                         pi = Paths.get(filename + ".png");
                     }
                     else
@@ -282,7 +269,7 @@ public class GUI {
             savejpgfiledialog.setFileFilter(new FileNameExtensionFilter("jpg", ".jpg"));
             savejpgfiledialog.setMultiSelectionEnabled(false);
 
-            int returnVal = savejpgfiledialog.showSaveDialog(Sort_Server_Frame);
+            int returnVal = savejpgfiledialog.showSaveDialog(Main_Frame);
 
             if (returnVal == JFileChooser.APPROVE_OPTION)
             {
@@ -300,7 +287,7 @@ public class GUI {
                     filename = ext[0];
                     if(!ext[1].equals("jpg") )
                     {
-                        JOptionPane.showMessageDialog(Sort_Server_Frame, "Invalid file extension.  Saving with JPG extension.", "Invalid Extension", JOptionPane.WARNING_MESSAGE);
+                        JOptionPane.showMessageDialog(Main_Frame, "Invalid file extension.  Saving with JPG extension.", "Invalid Extension", JOptionPane.WARNING_MESSAGE);
                         pi = Paths.get(filename + ".jpg");
                     }
                     else
@@ -340,7 +327,9 @@ public class GUI {
         public void actionPerformed(ActionEvent e)
         {
 
-            String txtCommandArgs = CommandLineArgs.getText();
+            //String txtCommandArgs = CommandLineArgs.getText();
+            String txtCommandArgs = "";
+
             ConversionOptions options = new ConversionOptions();
             ConversionOptions final_options = new ConversionOptions();
 
@@ -358,7 +347,7 @@ public class GUI {
                 {
                     System.out.println("Command parm: " + commandLinetokens[i]);
                 }
-                final_options = GUICommandParser(commandLinetokens, options);
+                final_options = GUICommandParser(commandLinetokens, options, Loadfile);
             }
 
             //Here we start it without command line arguements...
@@ -390,9 +379,9 @@ public class GUI {
         // set panel layout
         ScrollPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
 
-        Sorting_Output.setEditable(false);
+        Program_Output.setEditable(false);
 
-        JScrollPane OutputScroll = new JScrollPane(Sorting_Output);
+        JScrollPane OutputScroll = new JScrollPane(Program_Output);
         OutputScroll.setPreferredSize(new Dimension(500, 200));
 
         OutputScroll.setHorizontalScrollBarPolicy(HORIZONTAL_SCROLLBAR_ALWAYS);
@@ -459,7 +448,7 @@ public class GUI {
             try
             {
                 //Let's clear the user notification area...
-                Sorting_Output.getDocument().remove(0, Sorting_Output.getDocument().getLength());
+                Program_Output.getDocument().remove(0, Program_Output.getDocument().getLength());
             }
             catch (BadLocationException ex)
             {
@@ -472,9 +461,7 @@ public class GUI {
 
             System.out.println( "Current File is: " + file );
 
-            //Okay so now we need to figure out how to get everything to work....
-            //TextGrid grid = new TextGrid();
-
+            //Here we load the input file into a new grid object
             try
             {
                 grid.loadFrom(Loadfile.toString());
@@ -523,7 +510,7 @@ public class GUI {
     }
 
     //Here we parse the optional commandline arguments from the GUI...
-    public static ConversionOptions GUICommandParser(String[] args, ConversionOptions options)
+    public static ConversionOptions GUICommandParser(String[] args, ConversionOptions options, File filein)
     {
         // Convert String Array to List
         List<String> list = Arrays.asList(args);
@@ -535,7 +522,20 @@ public class GUI {
         if(list.contains("d") || list.contains("debug"))
         {
             options.processingOptions.setPrintDebugOutput(true);
+            System.out.println("Running with options: ");
+            for(int i=0;i<list.size();i++)
+            {
+                System.out.println(list.get(i).toString());
+            }
             System.out.println("Using grid:");
+            try {
+                if(!grid.loadFrom(filein.getPath().toString(), options.processingOptions))
+                {
+                    System.err.println("Cannot open file "+ filein +" for reading");
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             grid.printDebug();
         }
         if(list.contains("background"))
@@ -602,13 +602,42 @@ public class GUI {
 
 
     }
+    public static void Start_DITAA_CommandLine(String args[])
+    {
+        System.out.println("Running in CommandLine mode...");
+        CommandLineConverter.main(args);
+
+        System.out.println("Program completed...");
+
+
+    }
 
     //This is the main function which is used to display the GUI and
-    //initialize the Servers based on user input...
     public static void main( String args[]) throws Exception
     {
-        //Let's call the function to create the GUI...
-        CreateServerGUI();
+
+        //Use the command line
+        if(args.length > 0)
+        {
+            Start_DITAA_CommandLine(args);
+        }
+        //Use the GUI
+        else
+        {
+            //Let's call the function to create the GUI...
+            CreateDITAAGUI();
+
+            /*
+            //FOR TESTING
+            String[] args2 = new String[2];
+            args2[0] = "C:\\art3.txt";
+            args2[1] = "-d";
+
+            Start_DITAA_CommandLine(args2);
+            */
+
+        }
+
     }
 
 }
