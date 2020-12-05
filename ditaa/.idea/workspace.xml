@@ -1,53 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ditaa:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="72f4b6d4-b9dc-4f3e-8c6b-1b38aeea3ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/CommandLineConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConfigurationParser$XMLHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConfigurationParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ConversionOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/DebugUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/DocBookConverter$HowToHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/DocBookConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/FileUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/HTMLConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/PerformanceTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ProcessingOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/RenderingOptions$ImageType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/RenderingOptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/Shape3DOrderingComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/ShapeAreaComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/BitmapRenderer$TextCanvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/BitmapRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/CompositeDiagramShape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/CustomShapeDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/Diagram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramShape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/DiagramText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/FontMeasurer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ImageHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/OffScreenSVGRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/SVGBuilder$SVGCommands.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/SVGBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/SVGRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ShapeEdge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/graphics/ShapePoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/AbstractCell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/AbstractionGrid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/CellSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/GridPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/GridPatternGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/StringUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$Cell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellColorPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellStringPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellTagPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$LineSegment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ditaa.eml" beforeDir="false" afterPath="$PROJECT_DIR$/ditaa.eml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ditaa_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-resources/text/art14_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-resources/text/art16_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-resources/text/art6_1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-resources/text/art6_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/CommandLineConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/core/CommandLineConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellColorPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellColorPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellStringPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellStringPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellTagPair.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$CellTagPair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$LineSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid$LineSegment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/org/stathissideris/ascii2image/text/TextGrid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/CommandLineConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/CommandLineConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/ConfigurationParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/core/ConfigurationParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/CustomShapeDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/CustomShapeDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/Diagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/Diagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/ImageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/ImageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/OffScreenSVGRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/graphics/OffScreenSVGRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/text/TextGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/org/stathissideris/ascii2image/text/TextGrid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,15 +51,29 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.stathissideris.ascii2image.core.GUI" />
+      <module name="ditaa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.stathissideris.ascii2image.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -91,6 +85,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GUI" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -100,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607121070407</updated>
-      <workItem from="1607121071574" duration="2427000" />
+      <workItem from="1607121071574" duration="4990000" />
     </task>
     <servers />
   </component>
@@ -108,15 +107,71 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="849" y="407" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607125167528">
+      <screen x="0" y="25" width="1920" height="1116" />
+    </state>
+    <state x="849" y="407" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1116@0.25.1920.1116" timestamp="1607125167528" />
+    <state x="692" y="375" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607124931531">
+      <screen x="0" y="25" width="1920" height="1117" />
+    </state>
+    <state x="692" y="375" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.1117@0.25.1920.1117" timestamp="1607124931531" />
+    <state x="563" y="276" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1607124357991">
+      <screen x="0" y="25" width="1920" height="1109" />
+    </state>
+    <state x="563" y="276" key="#com.intellij.ide.util.TreeClassChooserDialog/0.25.1920.1109@0.25.1920.1109" timestamp="1607124357991" />
     <state x="698" y="336" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1607123155007">
       <screen x="0" y="25" width="1920" height="1109" />
     </state>
     <state x="698" y="336" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.25.1920.1109@0.25.1920.1109" timestamp="1607123155007" />
-    <state x="335" y="74" width="982" height="816" key="SettingsEditor" timestamp="1607123949571">
+    <state width="1878" height="369" key="GridCell.Tab.0.bottom" timestamp="1607126297753">
+      <screen x="0" y="25" width="1920" height="1117" />
+    </state>
+    <state width="1878" height="369" key="GridCell.Tab.0.bottom/0.25.1920.1116@0.25.1920.1116" timestamp="1607126261871" />
+    <state width="1878" height="369" key="GridCell.Tab.0.bottom/0.25.1920.1117@0.25.1920.1117" timestamp="1607126297753" />
+    <state width="1878" height="369" key="GridCell.Tab.0.center" timestamp="1607126297751">
+      <screen x="0" y="25" width="1920" height="1117" />
+    </state>
+    <state width="1878" height="369" key="GridCell.Tab.0.center/0.25.1920.1116@0.25.1920.1116" timestamp="1607126261870" />
+    <state width="1878" height="369" key="GridCell.Tab.0.center/0.25.1920.1117@0.25.1920.1117" timestamp="1607126297751" />
+    <state width="1878" height="369" key="GridCell.Tab.0.left" timestamp="1607126297751">
+      <screen x="0" y="25" width="1920" height="1117" />
+    </state>
+    <state width="1878" height="369" key="GridCell.Tab.0.left/0.25.1920.1116@0.25.1920.1116" timestamp="1607126261869" />
+    <state width="1878" height="369" key="GridCell.Tab.0.left/0.25.1920.1117@0.25.1920.1117" timestamp="1607126297751" />
+    <state width="1878" height="369" key="GridCell.Tab.0.right" timestamp="1607126297752">
+      <screen x="0" y="25" width="1920" height="1117" />
+    </state>
+    <state width="1878" height="369" key="GridCell.Tab.0.right/0.25.1920.1116@0.25.1920.1116" timestamp="1607126261870" />
+    <state width="1878" height="369" key="GridCell.Tab.0.right/0.25.1920.1117@0.25.1920.1117" timestamp="1607126297752" />
+    <state width="1878" height="369" key="GridCell.Tab.1.bottom" timestamp="1607126298932">
+      <screen x="0" y="25" width="1920" height="1117" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.bottom/0.25.1920.1116@0.25.1920.1116" timestamp="1607126261795" />
+    <state width="1878" height="369" key="GridCell.Tab.1.bottom/0.25.1920.1117@0.25.1920.1117" timestamp="1607126298932" />
+    <state width="1878" height="369" key="GridCell.Tab.1.bottom/0.25.1920.1118@0.25.1920.1118" timestamp="1607126034899" />
+    <state width="1878" height="369" key="GridCell.Tab.1.center" timestamp="1607126298931">
+      <screen x="0" y="25" width="1920" height="1117" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.center/0.25.1920.1116@0.25.1920.1116" timestamp="1607126261794" />
+    <state width="1878" height="369" key="GridCell.Tab.1.center/0.25.1920.1117@0.25.1920.1117" timestamp="1607126298931" />
+    <state width="1878" height="369" key="GridCell.Tab.1.center/0.25.1920.1118@0.25.1920.1118" timestamp="1607126034899" />
+    <state width="1878" height="369" key="GridCell.Tab.1.left" timestamp="1607126298930">
+      <screen x="0" y="25" width="1920" height="1117" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.left/0.25.1920.1116@0.25.1920.1116" timestamp="1607126261794" />
+    <state width="1878" height="369" key="GridCell.Tab.1.left/0.25.1920.1117@0.25.1920.1117" timestamp="1607126298930" />
+    <state width="1878" height="369" key="GridCell.Tab.1.left/0.25.1920.1118@0.25.1920.1118" timestamp="1607126034898" />
+    <state width="1878" height="369" key="GridCell.Tab.1.right" timestamp="1607126298931">
+      <screen x="0" y="25" width="1920" height="1117" />
+    </state>
+    <state width="0" height="0" key="GridCell.Tab.1.right/0.25.1920.1116@0.25.1920.1116" timestamp="1607126261795" />
+    <state width="1878" height="369" key="GridCell.Tab.1.right/0.25.1920.1117@0.25.1920.1117" timestamp="1607126298931" />
+    <state width="1878" height="369" key="GridCell.Tab.1.right/0.25.1920.1118@0.25.1920.1118" timestamp="1607126034899" />
+    <state x="335" y="74" width="982" height="816" key="SettingsEditor" timestamp="1607124460848">
       <screen x="0" y="25" width="1920" height="1110" />
     </state>
-    <state x="335" y="74" width="982" height="816" key="SettingsEditor/0.25.1920.1109@0.25.1920.1109" timestamp="1607123654939" />
-    <state x="335" y="74" key="SettingsEditor/0.25.1920.1110@0.25.1920.1110" timestamp="1607123949571" />
+    <state x="335" y="74" width="982" height="816" key="SettingsEditor/0.25.1920.1109@0.25.1920.1109" timestamp="1607124377581" />
+    <state x="335" y="74" key="SettingsEditor/0.25.1920.1110@0.25.1920.1110" timestamp="1607124460848" />
     <state x="673" y="471" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1607123311852">
       <screen x="0" y="25" width="1920" height="1109" />
     </state>

@@ -42,7 +42,7 @@ import org.stathissideris.ascii2image.text.TextGrid;
  */
 public class CommandLineConverter {
 
-	private static String notice = "ditaa version 0.11, Copyright (C) 2004--2017  Efstathios (Stathis) Sideris";
+	private static String notice = "ditaa version 0.11, Copyright (C) 2004--2017  Efstathios (Stathis) Sideris. Modified for CS7140 by Adam Shiiveley and ";
 
 	private static String[] markupModeAllowedValues = {"use", "ignore", "render"};
 

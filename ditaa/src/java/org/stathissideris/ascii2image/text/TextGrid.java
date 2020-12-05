@@ -68,6 +68,10 @@ public class TextGrid {
 		humanColorCodes.put("RED", "E32");
 		humanColorCodes.put("YEL", "FF3");
 		humanColorCodes.put("BLK", "000");
+		//Added custom colors here...
+		humanColorCodes.put("GRY", "888");
+		humanColorCodes.put("RSE", "F56");
+
 		
 	}
 

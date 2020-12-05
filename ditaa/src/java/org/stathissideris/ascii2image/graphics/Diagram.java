@@ -111,7 +111,7 @@ public class Diagram {
 	 * @param cellHeight
 	 */
 	public Diagram(TextGrid grid, ConversionOptions options) {
-		
+
 		this.cellWidth = options.renderingOptions.getCellWidth();
 		this.cellHeight = options.renderingOptions.getCellHeight();
 		
