@@ -5,7 +5,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FilenameFilter;
 import java.io.IOException;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Properties;
 
 public class Config {
     public static final String KEY_TITLE = "title";
